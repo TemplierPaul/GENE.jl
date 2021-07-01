@@ -1,0 +1,21 @@
+# layers: [0, 64, 32, 0]
+hidden_layer_1: 48
+hidden_layer_2: 48
+activ_func: "cos"
+d_space: 2 # space dimension without bias
+d_bias: 1
+function: "euclidean"
+optimizer: "cmaes" # "xNES", "sNES"
+individual: "gene" # "gene", "flatnet"
+
+# xNES
+seed: 0
+d_fitness: 1
+n_elite: 5
+n_gen: 300
+log_gen: 1
+save_gen: 10
+m_rate: 0.3
+
+# Gym
+env_name: "CartPole-v1" #"MsPacman-ram-v0", "CartPole-v1",  "MountainCar-v0", "Acrobot-v1", "Pendulum-v0"

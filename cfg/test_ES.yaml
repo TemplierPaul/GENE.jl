@@ -1,0 +1,16 @@
+layers: [2, 4, 3]
+activ_func: "cos"
+d_space: 2 # space dimension without bias
+d_bias: 1
+function: "euclidean"
+optimizer: "sNES" # "xNES", "sNES"
+individual: "gene" # "gene", "flatnet"
+
+# xNES
+seed: 0
+d_fitness: 1
+n_elite: 5
+n_gen: 300
+log_gen: 1
+save_gen: 10
+m_rate: 0.3
