@@ -1,4 +1,4 @@
-<img align="right" height="150" width="auto" src="img/GENE.jpg" style="background-color:white;">
+<img align="right" height="200" width="auto" src="img/GENE_logo.jpg">
 
 # A Geometric Encoding for Neural Network Evolution
 ## *Paul Templier, Emmanuel Rachelson, Dennis G. Wilson*
